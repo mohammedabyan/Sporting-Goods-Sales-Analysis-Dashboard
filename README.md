@@ -28,7 +28,6 @@
   <p align="center">
     Front-to-end process starting from data cleansing to creating a dashboard for Olympics Database
     <br /><br />
-    <a href = https://www.dropbox.com/s/3sxwx52o3x8ozj7/olympic_games.bak?dl=0>Dataset</a>
   </p>
 </div>
 
@@ -42,7 +41,7 @@
   <ol>
     <li><a href="#business-problem">Business Problem</a></li>
     <li><a href="#data-collection-and-table-structures">Data Collection and Table Structures</a></li>
-    <li><a href="#olympic-games-analysis">Olympic Games Analysis</a></li>
+    <li><a href="#adventure-works-analysis">Olympic Games Analysis</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -63,14 +62,14 @@ The challenge for this data analyst project is outlined below. This has been use
 
 The necessary data is first put into and SQL database and afterwards and transformed. Most of the tables were clean and ready to use but the budget table needed cleaning and formatting to make it machine-friendly
 
-### Budget Table
+### Budget Table Cleanup
 
 ![image](https://user-images.githubusercontent.com/29911769/165216603-f6829f32-04c2-47a7-9ce6-893eb586dcdc.png)
 ![image](https://user-images.githubusercontent.com/29911769/165216814-9aca5728-fc1d-4c15-a14c-6bc6c1797b1b.png)
 
-The final model is as shows
+### Final Model
 ![image](https://user-images.githubusercontent.com/29911769/165216319-110d3d18-d9cd-4e63-9c3c-b8c9b86d70f1.png)
-The strucutre of the model allows for cross-referncing and slicing data between tables efficiently by using the Sales as a fact table supported by look-up tables.
+All the analysis will center around how the model is struectured. The strucutre of the model allows for cross-referncing and slicing data between tables efficiently by using the Sales as a fact table supported by look-up tables.
 
 ## Calculations
 
@@ -98,7 +97,7 @@ Variance% = DIVIDE([Variance],[Budget])
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Olympic Games Analysis
+## Adventure Works Analysis
 
 The final dashboard features all the necessary visualizations required by the stakeholders. We are able to view the data to quite a granular level by using the drill down feature. Customer spending and top products can also be found on the lefthand side of table which can be used to narrow down the data shown by clicking on the values.
 
