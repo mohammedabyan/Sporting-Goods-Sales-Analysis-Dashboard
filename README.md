@@ -26,7 +26,7 @@
   <h2 align="center">Sporting Goods Store Analysis and Dashboard using SQL PBI</h3>
 
   <p align="center">
-    Front-to-end process starting from data cleansing to creating a dashboard for Olympics Database
+    Front-to-end process starting from data cleansing to creating a dashboard for sporting goods database.
     <br /><br />
   </p>
 </div>
